@@ -13,13 +13,13 @@ import {
  } from './NavbarElement';
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
     <>
         <Nav>
             <NavbarBox>
                 <NavLogo to='/'>WM</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
@@ -33,9 +33,12 @@ const Navbar = () => {
                         <NavLinks to= "about">About Us</NavLinks>
                     </NavItem>
                 </NavMenu>
-                {/* <NavBtn>
+
+                {/* Will use it for the footer 
+                <NavBtn>
                     <NavBtnLink to='/signin'>Sign In</NavBtnLink>
                 </NavBtn> */}
+                
             </NavbarBox>
         </Nav>
     </>

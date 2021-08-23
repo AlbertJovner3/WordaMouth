@@ -100,7 +100,7 @@ export const NavBtn = styled.nav`
 
 
 export const NavBtnLink = styled(LinkRouter)`
-    border-radius: 50px;
+    border-radius: 10px;
     background: #F89E95;
     white-space: nowrap;
     padding: 10px 22px;

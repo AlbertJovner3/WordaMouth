@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these</h1>
+      <h1>Check out these </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/SCP-005.jpg'
-              text='SCP-005 poses no immediate risk in any direct sense. Even so!'
-              label='Safe'
+              src='images/pasta.jpg'
+              text='Best local italian cuisine'
+              label='Italian'
               path='/places'
             />
             <CardItem
-              src='images/scp002.jpg'
-              text='SCP-002 is to remain connected to a suitable power supply at all times.'
-              label='Euclid'
+              src='images/coffee.jpg'
+              text='Great local cafes with some of the best hot drinks and food'
+              label='Cafes'
               path='/places'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/SCP004_door.jpg'
-              text='When handling items SCP-004-2 through SCP-004-13, proper procedure is vital.'
-              label='Euclid'
+              src='images/korean.jpg'
+              text='Try something different with local Korean cuisine'
+              label='Korean'
               path='/places'
             />
             <CardItem
-              src='images/scp006.jpg'
-              text='Whereas the nature of SCP-006 does not warrant any extensive containment.'
-              label='Safe'
+              src='images/hamburger.jpg'
+              text='All the comfort foods made in local restrunts and bars'
+              label='Comfort'
               path='/places'
             />
             <CardItem
-              src='images/scp003.jpg'
-              text='SCP-003 is to be maintained at a constant temperature of no less than 35°C'
-              label='Euclid'
+              src='images/taco.jpg'
+              text='Underated Mexican cuisine in the local area'
+              label='Mexican'
               path='/places'
             />
           </ul>

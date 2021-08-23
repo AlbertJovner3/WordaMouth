@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/Background.mp4' autoPlay loop muted />
+      <video src='/Videos/Background.mp4' autoPlay loop muted />
       <h1>Word 'a Mouth</h1>
       <p>Local Cafes, Bars + Restaurants</p>
       <div className='hero-btns'>

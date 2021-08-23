@@ -7,9 +7,9 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks,
-    NavBtn,
-    NavBtnLink
+    NavLinks
+    // NavBtn,
+    // NavBtnLink
  } from './NavbarElement';
 
 
@@ -33,9 +33,9 @@ const Navbar = () => {
                         <NavLinks to= "about">About Us</NavLinks>
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
+                {/* <NavBtn>
                     <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                </NavBtn>
+                </NavBtn> */}
             </NavbarBox>
         </Nav>
     </>

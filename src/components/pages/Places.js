@@ -21,7 +21,7 @@ fetchItems();
     return (
         <div>
         <div className='hero-container'>
-      <video alt="Background" src='../../videos/backgroundscpvid.mp4' autoPlay loop muted />
+      <video alt="Background" src='../../videos/Background.mp4' autoPlay loop muted />
       <h1>Local Cuisine</h1>
       <p>Whats in your area</p>
     </div>

@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarBox>
-                <NavLogo to='/'>WM</NavLogo>
+                <NavLogo to='/'>WM<img src="images/logo.png" alt="logo" width="45" height="45"></img></NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

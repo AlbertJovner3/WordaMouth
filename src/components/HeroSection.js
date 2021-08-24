@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import { Buttontwo } from './Buttontwo';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -18,14 +17,7 @@ function HeroSection() {
         >
           Restrunt List
         </Button>
-        <Buttontwo
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          ? <i className='far fa-play-circle' />
-        </Buttontwo>
+        
       </div>
     </div>
   );

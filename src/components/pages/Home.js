@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import Sidebar from './components/Sidebar.js'
 import Navbar from './components/Navbar.js';
 import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from './HeroSection';
-import Footer from './Footer';
+import Cards from './components/Cards';
+import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)

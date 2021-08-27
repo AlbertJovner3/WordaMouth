@@ -4,7 +4,7 @@ import '../../App.css';
 function Places() {
     return (
   <div className="player-wrapper">
-    <h1>Hello!</h1>
+    <h1>Restraunt List here:</h1>
   </div>
   
   

@@ -40,10 +40,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            Word 'a Mouth' <img src="./images/wam.png" alt="logo" width="45" height="45"></img>
+            Word 'a Mouth <img src="./images/wam.png" alt="logo" width="45" height="45"></img>
             </Link>
           </div>
-          <small class='website-rights'>SCP 2021</small>
+          <small class='website-rights'>WM 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

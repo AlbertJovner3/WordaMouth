@@ -4,7 +4,7 @@ import '../../App.css';
 function Signin() {
   return (
 <div className="player-wrapper">
-  <h1>Hello!</h1>
+  <h1>Sign in page here</h1>
 </div>
 
 

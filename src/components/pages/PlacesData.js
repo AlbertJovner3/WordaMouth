@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../../App.css';
-import '../../simple.css';
+
 
 function PlacesData({match}) {
     useEffect(() => {

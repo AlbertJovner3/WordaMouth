@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Components/routes/home";
-import Places from "./Components/routes/Places";
-import Place from "./Components/routes/Place";
-import Signin from "./Components/routes/Signin";
+import Home from './Components/routes/home';
+import Places from './Components/routes/Places';
+import Place from './Components/routes/Place';
+import Signin from './Components/routes/Signin';
 
 
 const AppRouter = ({ isLoggedIn }) => {
